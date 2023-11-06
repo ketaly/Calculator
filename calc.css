@@ -1,0 +1,226 @@
+*{
+    box-sizing: content-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.bdy{
+    display: grid;
+    background-image: url(Image/math.png);
+    width: 100%;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.cal{
+    display: block;
+    justify-self: center;
+    width: 25%;
+    height: 580px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+input{
+    outline: none;
+    margin-top: 5%;
+    justify-self: center;
+    width: 90%;
+    height: 150px;
+    font-size: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.but{
+    display:  block;
+    justify-self: center;
+    background-color: transparent;
+    width: 90%;
+    height: auto;
+}
+
+button{
+    border: none;
+    margin-bottom: 9px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(73, 73, 73);
+    font-size: 20px;
+}
+.maintain{
+    display: flex;
+    justify-content: space-between;
+}
+.kk{
+    color: black;
+    background-color: rgb(189, 189, 204);
+}
+
+.ll{
+    background-color: orange;
+}
+.kk:hover{
+    background-color: white;
+}
+.ll:hover{
+    background-color: rgb(163, 114, 24);
+}
+.ii:hover{
+    background-color: rgb(196, 196, 196);
+}
+
+@media (max-width: 450px) {
+
+    .bdy{
+        display: grid;
+        width: 100%;
+        height: auto;
+        padding-top: 3%;
+       
+    }
+    .cal{
+        display: block;
+        justify-self: center;
+        width: 80%;
+        height: 580px;
+        background-color: rgb(8, 8, 8);
+        border-radius: 10%;
+        padding-left: 5%;
+        padding-right: 3%;
+    }
+   
+    button{
+        border: none;
+        margin-bottom: 9px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: white;
+        background-color: rgb(73, 73, 73);
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 451px) {
+
+   
+    .cal{
+        display: block;
+        justify-self: center;
+        width: 60%;
+        height: 580px;
+        background-color: rgb(8, 8, 8);
+        border-radius: 10%;
+        padding-left: 5%;
+        padding-right: 3%;
+    }
+
+    button{
+        border: none;
+        margin-bottom: 9px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: white;
+        background-color: rgb(73, 73, 73);
+        font-size: 20px;
+    }
+
+    .bdy{
+        display: grid;
+        width: 100%;
+        height: auto;
+        padding-top: 3%;
+       
+    }
+  
+}
+
+@media (min-width: 600px) {
+
+   
+    .cal{
+        display: block;
+        justify-self: center;
+        width: 60%;
+        height: 580px;
+        background-color: rgb(8, 8, 8);
+        border-radius: 10%;
+        padding-left: 5%;
+        padding-right: 3%;
+    }
+
+    button{
+        border: none;
+        margin-bottom: 9px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        color: white;
+        background-color: rgb(73, 73, 73);
+        font-size: 20px;
+    }
+
+  
+} 
+
+@media (min-width: 800px) {
+
+   
+    .cal{
+        display: block;
+        justify-self: center;
+        width: 50%;
+        height: 580px;
+        background-color: rgb(8, 8, 8);
+        border-radius: 10%;
+        padding-left: 5%;
+        padding-right: 3%;
+    }
+
+    button{
+        border: none;
+        margin-bottom: 9px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        color: white;
+        background-color: rgb(73, 73, 73);
+        font-size: 20px;
+    }
+
+  
+} 
+
+@media (min-width: 950px) {
+
+   
+    .cal{
+        display: block;
+        justify-self: center;
+        width: 30%;
+        height: 580px;
+        background-color: rgb(8, 8, 8);
+        border-radius: 10%;
+        padding-left: 5%;
+        padding-right: 3%;
+    }
+
+    button{
+        border: none;
+        margin-bottom: 9px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        color: white;
+        background-color: rgb(73, 73, 73);
+        font-size: 20px;
+    }
+
+  
+} 
